@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(94, 94, 210, 0.683),rgb(225, 204, 204));
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.cal{
+    position: relative;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 30px rgb(15, 49, 160);
+    padding: 20px;
+}
+
+#disp{
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 15px;
+    width: auto;
+    max-width: 270px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#disp::-webkit-scrollbar{
+    display: block;
+    height: 3px;
+}
+
+button{
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.equals{
+    height: 135px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.opt{
+    background-color: rgba(255, 255, 0, 0.46);
+}
+
+.equals{
+    background-color: rgba(8, 243, 223, 0.46);
+}
+
+.clear{
+    background-color: rgba(187, 35, 35, 0.436);
+}
+
+.num{
+    background-color: rgba(76, 187, 139, 0.436);
+}
+
+.brack{
+    background-color: rgba(187, 76, 170, 0.436);
+}
